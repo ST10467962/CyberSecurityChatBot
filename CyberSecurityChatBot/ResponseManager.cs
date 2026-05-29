@@ -43,8 +43,8 @@ namespace CyberSecurityChatBot
 
                     "Verify sender email addresses carefully.",
 
-                    "Avoid downloading unknown attachments."
-
+                    "Avoid downloading unknown attachments.",
+                    "Be alert to urgency tricks.",
                 }
 
             },
