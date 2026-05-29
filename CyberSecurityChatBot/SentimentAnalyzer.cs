@@ -23,6 +23,8 @@ namespace CyberSecurityChatBot
                 return "curious";
 
             return "neutral";
+            if (message.Contains("confused"))
+                return "confused";
         }
     }
 }
