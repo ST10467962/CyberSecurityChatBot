@@ -51,7 +51,7 @@
             // rtbChat
             // 
             this.rtbChat.BackColor = System.Drawing.Color.Black;
-            this.rtbChat.ForeColor = System.Drawing.Color.Lime;
+            this.rtbChat.ForeColor = System.Drawing.Color.ForestGreen;
             this.rtbChat.Location = new System.Drawing.Point(73, 80);
             this.rtbChat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rtbChat.Name = "rtbChat";
