@@ -41,7 +41,8 @@
             this.lblTitle.BackColor = System.Drawing.Color.Black;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.Cyan;
-            this.lblTitle.Location = new System.Drawing.Point(160, 24);
+            this.lblTitle.Location = new System.Drawing.Point(213, 30);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(498, 32);
             this.lblTitle.TabIndex = 0;
@@ -51,28 +52,31 @@
             // 
             this.rtbChat.BackColor = System.Drawing.Color.Black;
             this.rtbChat.ForeColor = System.Drawing.Color.Lime;
-            this.rtbChat.Location = new System.Drawing.Point(71, 73);
+            this.rtbChat.Location = new System.Drawing.Point(73, 80);
+            this.rtbChat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rtbChat.Name = "rtbChat";
             this.rtbChat.ReadOnly = true;
-            this.rtbChat.Size = new System.Drawing.Size(664, 194);
+            this.rtbChat.Size = new System.Drawing.Size(884, 238);
             this.rtbChat.TabIndex = 1;
             this.rtbChat.Text = "";
             // 
             // txtUserInput
             // 
-            this.txtUserInput.Location = new System.Drawing.Point(82, 316);
+            this.txtUserInput.Location = new System.Drawing.Point(109, 389);
+            this.txtUserInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUserInput.Multiline = true;
             this.txtUserInput.Name = "txtUserInput";
-            this.txtUserInput.Size = new System.Drawing.Size(258, 38);
+            this.txtUserInput.Size = new System.Drawing.Size(343, 46);
             this.txtUserInput.TabIndex = 2;
             // 
             // btnSend
             // 
             this.btnSend.BackColor = System.Drawing.Color.DarkCyan;
             this.btnSend.Font = new System.Drawing.Font("Palatino Linotype", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSend.Location = new System.Drawing.Point(600, 316);
+            this.btnSend.Location = new System.Drawing.Point(800, 389);
+            this.btnSend.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(162, 38);
+            this.btnSend.Size = new System.Drawing.Size(216, 47);
             this.btnSend.TabIndex = 3;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = false;
@@ -81,22 +85,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(374, 24);
+            this.label1.Location = new System.Drawing.Point(499, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 15);
+            this.label1.Size = new System.Drawing.Size(0, 16);
             this.label1.TabIndex = 4;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtUserInput);
             this.Controls.Add(this.rtbChat);
             this.Controls.Add(this.lblTitle);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
