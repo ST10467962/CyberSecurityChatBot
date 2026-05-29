@@ -25,7 +25,8 @@ namespace CyberSecurityChatBot
 
                     "Avoid using personal information in passwords.",
 
-                    "Enable two-factor authentication."
+                    "Enable two-factor authentication.",
+                    " Use special characters.",
 
                 }
 
